@@ -4,9 +4,53 @@
     margin: 0;
     padding: 0;
     border: none;
+
 }
+
 
 body {
     font-family: Merriweather, Arial;
-    font-weight: bold;
+    font-weight: 300;
+    color: red;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: red;
+    font-family: Anton, sans-serif ;
+}
+
+#getfit-logo {
+    color: #4dff4d;
+    font-size: 300%;
+    float: left;
+    margin-left: 5%;
+}
+
+#nav-link {
+    font-size:110%;
+    letter-spacing: 7px;
+    
+}
+#nav-link li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+#nav-link a {
+    text-decoration: none;
+    color:aqua;
+
+}
+header {
+    line-height: 75px;
+}
+
+#nav-link a:hover, a:active { font-size: 150%;}
+.current-page {
+    border-bottom: 1px solid pink;
 }
